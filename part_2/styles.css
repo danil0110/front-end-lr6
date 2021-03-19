@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 750px;
+    margin: 0 auto;
+}
+
+#posts {
+    margin-top: 50px;
+}
+
+.post {
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.post-content {
+    margin-top: 10px;
+    font-style: italic;
+}
