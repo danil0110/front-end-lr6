@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    width: 750px;
+    margin: 0 auto;
+}
+
+form {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+form input {
+    width: calc(100% * 0.78);
+    padding: 10px;
+}
+
+form button {
+    width: calc(100% * 0.2);
+}
+
+.todo-list {
+    margin-top: 30px;
+}
+
+.todo-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+.todo-item > div {
+    display: flex;
+    align-items: center;
+}
+
+.todo-item .check {
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 50%;
+    float: left;
+}
+
+.todo-item .check.completed {
+    background-color: greenyellow;
+}
+
+.todo-item .check:hover {
+    cursor: pointer;
+}
+
+.todo-item .todo-text {
+    margin-left: 10px;
+}
+
+.todo-item .delete-item {
+    padding: 10px;
+}

@@ -4,11 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
     <link rel="stylesheet" href="./styles.css">
     <title>Todo list</title>
 </head>
 <body>
-    
+    <div class="container">
+        <form>
+            <input type="text" placeholder="Задача...">
+            <button>Добавить</button>
+        </form>
+        <ul class="todo-list">
+            <li class="todo-item completed">
+                <div>
+                    <div class="check completed"></div>
+                    <span class="todo-text">Купить хлеб</span>
+                </div>
+                <button class="delete-item">
+                    <i class="fas fa-trash"></i>
+                </button>
+            </li>
+        </ul>
+    </div>
     <script src="./index.js"></script>
 </body>
 </html>
